@@ -25,7 +25,6 @@ header{
     padding: 16px;
     padding-right: 4%;
     padding-left: 4%;
-    scrollbar-width: none;
 }
 .dropcontent {
     /* content of the drop */
@@ -40,7 +39,6 @@ header{
     margin-left: -100px;
     overflow-y: scroll;
     height: 400%;
-    scrollbar-width: none;
 }
 ul {
     position: relative;
@@ -55,7 +53,7 @@ li {
 }
 /*Scroll Bar Style !*/
 ::-webkit-scrollbar { 
-    display: none;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -68,7 +66,6 @@ li {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    scrollbar-width: mone;
 }
 .dropcontent a:hover {
     /* changes of the links in the drop upon hovering over them */
@@ -385,10 +382,9 @@ h5{
 
 .sidenav {
     height: 500px;
-    width: 150px;
+    widht: 150px;
     overflow-y: scroll;
-    position: fixed;
-    scrollbar-width: none;
+    position: absolute;
 }
 
 #Sidenav a {
@@ -411,38 +407,47 @@ h5{
 /* The about link: 20px from the top with a green background */
 #explanationhover {
   top: 0px;
+  background-color: #17202A;
 }
 
 #generalhover {
   top: 60px;
+  background-color: #17202A; /* Blue */
 }
 
 #pvphover {
   top: 120px;
+  background-color: #17202A; /* Red */
 }
 
 #gearhover {
   top: 180px;
+  background-color: #17202A
 }
 
 #huntinghover {
   top: 240px;
+  background-color: #17202A
 }
 
 #generalwarhover {
   top: 300px;
+  background-color: #17202A
 }
 
 #civilwarhover {
   top: 360px;
+  background-color: #17202A
 }
 
 #expansionhover {
   top: 420px;
+  background-color: #17202A
 }
 
 #discordhover {
   top: 480px;
+  background-color: #17202A
 }
 /*End Hoverable Sidenav*/
 
